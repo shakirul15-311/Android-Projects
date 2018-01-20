@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@drawable/blue"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.krisok.Hospital.Dhakabivag">
+
+    <TextView
+        android:id="@+id/dhakaa"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                                              ঢাকা জেলা\n\nDhamrai Upazila Health Complex\n	01730324400\n
+Doher Upazila Health Complex\n	01730324401\n\n
+Keraniganj Upazila Health Complex\n	01730324402\n\n
+Nawabganj Upazila Health Complex\n	01730324403\n\n
+Saver Upazila Health Complex\n	01730324404\n\n
+"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

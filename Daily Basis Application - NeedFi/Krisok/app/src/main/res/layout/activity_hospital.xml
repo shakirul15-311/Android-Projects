@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/callback"
+    tools:context="com.example.lenovo.krisok.Hospital.Hospital">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="61dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+<RelativeLayout
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:text="বিভাগসমূহ"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/chittagong"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:text="চট্টগ্রাম বিভাগ"
+        android:background="@drawable/bluebutton"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="74dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/khulnabivag"
+        android:background="@drawable/bluebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:text="খুলনা বিভাগ"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="149dp"
+        android:layout_below="@+id/chittagong"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/dhaka"
+        android:background="@drawable/bluebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:text="ঢাকা বিভাগ"
+        android:layout_below="@+id/khulnabivag"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/barisal"
+        android:layout_width="fill_parent"
+        android:background="@drawable/bluebutton"
+        android:layout_height="37dp"
+        android:text="বরিশাল বিভাগ"
+        android:layout_below="@+id/dhaka"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/moymonsingh"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:background="@drawable/bluebutton"
+        android:text="ময়মনসীংহ বিভাগ"
+        android:layout_below="@+id/barisal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/shylet"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/bluebutton"
+        android:text="সিলেট বিভাগ"
+        android:layout_below="@+id/moymonsingh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:id="@+id/rangpur"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:background="@drawable/bluebutton"
+        android:text="রংপুর বিভাগ"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/shylet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:id="@+id/rajshai"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="@drawable/bluebutton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="448dp"
+        android:text="রাজশাহী বিভাগ"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

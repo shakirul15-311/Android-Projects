@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/content_main"
+ android:background="@drawable/needfi"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lenovo.krisok.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+
+    <ImageButton
+        android:id="@+id/feedback"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="@drawable/feedback"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp" />
+
+        <ImageButton
+            android:id="@+id/dailyno"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/dailynote"
+            android:layout_alignTop="@+id/feedback"
+            android:layout_alignLeft="@+id/imageButton"
+            android:layout_alignStart="@+id/imageButton" />
+
+        <ImageButton
+            android:id="@+id/hospital"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/hospital"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/feedback"
+            android:layout_alignLeft="@+id/feedback"
+            android:layout_alignStart="@+id/feedback" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/policee"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_above="@+id/job"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:id="@+id/job"
+            android:background="@drawable/job"
+
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/hospital"
+            android:layout_alignLeft="@+id/hospital"
+            android:layout_alignStart="@+id/hospital" />
+
+        <ImageButton
+            android:id="@+id/tution"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/tutiontwo"
+            android:layout_alignTop="@+id/job"
+            android:layout_alignLeft="@+id/imageButton"
+            android:layout_alignStart="@+id/imageButton" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/off"
+
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/job"
+            android:layout_alignLeft="@+id/job"
+            android:layout_alignStart="@+id/job" />
+
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+           android:background="@drawable/call"
+            android:layout_alignTop="@+id/imageButton2"
+            android:layout_alignLeft="@+id/tution"
+            android:layout_alignStart="@+id/tution" />
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rakibul.touristspotandmarketplaceinbd.ShimantoSquare">
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="250dp"
+        android:src="@drawable/pic6"
+        android:layout_gravity="center"
+        android:id="@+id/imageView1"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageView1"
+        android:textSize="25dp"
+        android:textColor="#000080"
+        android:text="Address: Rd No. 2, Dhaka 1205.                       Off Day:Tuesday.                       Open Hours:10AM-9PM                       Phone: 01716-286995"
+        />
+
+</RelativeLayout>

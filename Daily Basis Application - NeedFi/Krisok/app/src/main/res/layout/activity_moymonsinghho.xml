@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    tools:context="com.example.lenovo.krisok.Hospital.Moymonsinghho">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:textColor="#000"
+        android:layout_width="383dp"
+        android:layout_height="513dp"
+        android:text="                                              ময়মনসিংহ\n\n Bhaluka Upazila Health Complex\n	01730324519\n\n
+Dhubaura Upazila Health Complex\n	01730324520\n\n
+Fulbaria Upazila Health Complex\n	01730324521\n\n
+Fulpur Upazila Health Complex\n	01730324522\n\n
+Gofargaon Upazila Health Complex\n	01730324523\n\n
+Gouripur Upazila Health Complex\n	01730324524\n\n
+Haluaghat Upazila Health Complex\n	01730324525\n\n
+Iswarganj Upazila Health Complex\n	01730324526\n\n
+"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp" />
+</RelativeLayout>

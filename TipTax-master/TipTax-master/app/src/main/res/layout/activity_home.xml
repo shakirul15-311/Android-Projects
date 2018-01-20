@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.masumjim.tiptax.HomeActivity">
+
+    <TextView
+        android:id="@+id/promo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TAX and TIP"
+        android:textColor="#2b6e4b"
+        android:textSize="25pt"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_below="@+id/promo"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:text="Team Members"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="15pt"
+        android:textColor="#690303"
+        />
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:text="Abdullah-Al-Masum"
+        android:gravity="center_horizontal"
+        android:textSize="13pt"
+        />
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n1"
+        android:text="Abu Shaif Khan"
+        android:gravity="center_horizontal"
+        android:textSize="13pt"
+        />
+    <TextView
+        android:id="@+id/n3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n2"
+        android:text="Ikhtiar Ahmed"
+        android:gravity="center_horizontal"
+        android:textSize="13pt"
+        />
+    <TextView
+        android:id="@+id/n4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n3"
+        android:text="Rafiul Islam"
+        android:gravity="center_horizontal"
+        android:textSize="13pt"
+        />
+    <TextView
+        android:id="@+id/n5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n4"
+        android:text="Anisul Islam"
+        android:gravity="center_horizontal"
+        android:textSize="13pt"
+        />
+    <TextView
+        android:id="@+id/n6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n5"
+        android:text="Sazzad Mahmud"
+        android:gravity="center_horizontal"
+        android:textSize="13pt"
+        />
+
+
+        </RelativeLayout>

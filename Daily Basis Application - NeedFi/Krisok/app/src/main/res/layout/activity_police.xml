@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/callback"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.krisok.Police">
+
+    <Button
+        android:id="@+id/polic"
+        android:text="ঢাকা বিভাগ"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@drawable/bluebutton"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:id="@+id/rajjj"
+        android:layout_width="fill_parent"
+        android:background="@drawable/bluebutton"
+        android:layout_height="37dp"
+        android:layout_marginTop="31dp"
+        android:text="রাজশাহী বিভাগ"
+        android:layout_below="@+id/polic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

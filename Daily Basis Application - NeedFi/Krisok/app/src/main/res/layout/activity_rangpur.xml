@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.krisok.Hospital.Rangpur">
+<RelativeLayout
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:text="\n                                            রংপুর বিভাগ\nBadarganj Upazila Health Complex	01730324709\n
+Gangachara Upazila Health Complex	01730324710	\n
+Kawnia Upazila Health Complex	01730324711	\n
+Mithapukur Upazila Health Complex	01730324712\n
+Pirghacha Upazila Health Complex	01730324713	\n
+Taraganj Upazila Health Complex	01730324715	\n
+Haragach 31 Bed Hospital	01730324882	\n
+Pirganj Upazila Health Complex	01730324714\n
+"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rakibul.touristspotandmarketplaceinbd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Toutistplace" />
+        <activity android:name=".marketplace" />
+        <activity android:name=".about" />
+        <activity android:name=".ahsan" />
+        <activity android:name=".lalbag" />
+        <activity android:name=".botanikal" />
+        <activity android:name=".liberationwar" />
+        <activity android:name=".national_musum" />
+        <activity android:name=".novotheater" />
+        <activity android:name=".zoo" />
+        <activity android:name=".bosundhara" />
+        <activity android:name=".BCSComputerCity" />
+        <activity android:name=".EasternPlaza" />
+        <activity android:name=".ShahAliPlaza" />
+        <activity android:name=".ShimantoSquare" />
+        <activity android:name=".ShyamoliSquare" />
+        <activity android:name=".jomu"></activity>
+    </application>
+
+</manifest>

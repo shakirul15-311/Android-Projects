@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.lenovo.krisok.Login">
+ <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="424dp"
+        android:layout_height="185dp"
+        app:srcCompat="@drawable/login"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-4dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="লগ ইন।"
+        android:textStyle="bold"
+        android:background="#28e921"
+        tools:layout_editor_absoluteY="41dp"
+        tools:layout_editor_absoluteX="338dp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="392dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:inputType="textPersonName"
+        android:hint="User Name:এর নাম টা দিন। NeedFi"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="247dp"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="394dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+       android:hint="Password:এর নাম টা দিন। NeedFi
+"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="416dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignLeft="@+id/user"
+        android:layout_alignStart="@+id/user" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#09f114"
+        android:text="চাপুন।"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="522dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="348dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:background="#4719ed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="UseR Name"
+        android:layout_below="@+id/imageView2"
+        android:layout_toRightOf="@+id/tex"
+        android:layout_toEndOf="@+id/tex" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f18015d2"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="PassWord"
+        android:layout_above="@+id/pass"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_marginBottom="13dp" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#efe40c"
+
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    tools:context="com.example.lenovo.krisok.Dailynote">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+      android:hint="কাজের আইডি টি দিন।"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:id="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="কাজের বিষয় টি সম্পর্কে লিখুন।"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="কাজটির বর্ণনা দিন।"
+        android:ems="10"
+        android:layout_marginTop="18dp"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="শেষ সময়টি দিন।"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="#13e608"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="যুক্ত করুণ"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@drawable/notebackground"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scrollView2">
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="230dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textColor="#f1130b"
+        android:layout_width="fill_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="39dp"
+        android:text="দেখুন।"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+     </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="viewdata"
+        android:background="#0ff013"
+        android:text="রুটিন দেখুন"
+        android:layout_above="@+id/scrollView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="deletedata"
+        android:background="#89ea1a"
+        android:text="আইডি ধরে কেটে দিন"
+        android:layout_above="@+id/scrollView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

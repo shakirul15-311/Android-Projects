@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/blue"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.krisok.Hospital.RajshaiBivag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:text="\n                                            রাজশাহী বিভাগ\nBagmara Upazila Health Complex	01730324700\n
+Bagha Upazila Health Complex	01730324701\n
+Durgapur Upazila Health Complex	01730324703\n
+Godagari Upazila Health Complex	01730324704	\n
+Mohapur Upazila Health Complex	01730324705	\n
+Paba Upazila Health Complex	01730324706	\n
+Puthia Upazila Health Complex	01730324707\n
+Tanore Upazila Health Complex	01730324708	\n
+Godagari 31 Bed Hospital	01730324881	\n
+
+
+
+
+"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

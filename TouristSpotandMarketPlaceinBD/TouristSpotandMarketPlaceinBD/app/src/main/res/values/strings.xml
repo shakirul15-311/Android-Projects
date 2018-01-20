@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">Tourist Spot and Market Place in BD</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about">Open about Activity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="app_name1">Helper</string>
+    <string name="des1">\n\nLalbagh Fort is the most popular and renowned fort and a
+great signature of art by Mughal Empire in Bangladesh.
+ It is also known as Fort Aurangabad. It is located in Lalbagh of old Dhaka,
+ hence named so. It is situated by the bank of the river Buriganga in a rich
+ red soil.
+</string>
+
+    <string name="head1">\n\nHistory:</string>
+    <string name="des2">\n\nLalbagh Fort is an incomplete structure by a Mughal
+ prince and later emperor himself named Muhammad Azam (third son of Aurangazeb).
+ He started the work of the fort in 1678 during his vice-royalty in Bangladesh
+ (Previous Bengal). He stayed in Bengal for 15 months. It remained incomplete when
+ he was called by his father Aurangazeb to the capital Delhi.
+Shaista Khan was the new Subedar (Governor) of Dhaka in that time, and he did not
+ complete the fort. In 1684, the daughter of Shaista Khan named Iran Dukht (Pari Bibi)
+ died there. After her death, he started thinking the fort as ominous, and left the
+ structure incomplete. Among the 3 major parts of Lalbagh Fort, one is the tomb of Pari Bibi.
+After Shaista Khan left Dhaka, it lost its popularity. The main cause was that the
+ capital was shifted from Dhaka to Murshidabad. After the end of royal Mughal period,
+ the fort became abandoned. In 1844, the area achieved its name as Lalbagh replacing Aurangabad,
+ so the fort as Lalbagh Fort.</string>
+
+    <string name="head2">\n\nDifferent parts of Lalbagh Fort:</string>
+    <string name="des3">\n\nLalbagh Fort
+ consists of three buildings:\n(1) The Mosque (west side)\n(2) The tomb of Pari-Bibi
+ (middle of east-west of the fort)\n(3) The Diwan-i-aam palace (east side)</string>
+
+
+    <string name="head3">Entry fees of Lalbagh Fort: </string>
+    <string name="des4">\n\n* Local Tourists: 20 TK
+\n* SAARC Country Tourists: 100 TK
+\n* Other Foreigners: 200 TK</string>
+
+
+    <string name="head4">\n\nVisiting hours of Lalbagh Fort:</string>
+    <string name="des5">\n\n* Summer Season (April – September)
+\nTuesday – Saturday: \n10.00 AM – 01.00 PM\n01.30 PM – 06.00 PM
+\nFriday: \n10.00 AM – 12.30 PM\n02.30 PM – 06.00 PM
+\nSunday: \nWeekly Holiday
+\nMonday: \n02.30 PM – 06.00 PM
+\n\n* Winter Season (October – March)
+\nTuesday – Saturday: \n09.00 AM – 01.00 PM\n01.30 PM – 05.00 PM
+\nFriday: \n09.00 AM – 12.30 PM\n02.00 PM – 05.00 PM
+\nSunday: \nWeekly Holiday
+\nMonday: \n01.30 PM – 05.00 PM
+\n\n* Eid Holidays
+\nLalbagh Fort will remain closed for visitors during Eid day and the previous day of Eid. It will remain open as usual from the next day of Eid day.
+\n\n* Govt. Holidays
+\nLalbagh Fort will remain closed during any govt. holiday.
+\n\n* Ramadan Timing
+\nLalbagh Fort will be closed at 04.00 PM during the holy month of Ramadan.</string>
+
+    <string name="am1">\n\nAhsan Manzil Museum is one of the best tourist spots in Bangladesh that attracts thousands of visitors from all over the world every year.</string>
+
+    <string name="am2">\n\nHistory of Ahsan Manzil Museum :</string>
+    <string name="am3">\n\nAhsan Manzil is on the bank of the river Buriganga in Dhaka.
+        The color of the walls of the buildings is pink which looks majestic.
+        Recently, the site has been renovated and turned into a museum.
+        It was the home of the then Nawab of Dhaka named Nawab Salimullah.
+        At present, the building is the monument of historic beauty with a lot of eye-catching sights that attracts thousands of visitors every year to the spot.</string>
+
+    <string name="am4">\n\nEntry fee:</string>
+    <string name="am5">\n\n *tk2/person for below12 years
+\n*tk5/person for above 12 years
+\n*tk5/person for SAARC tourists.
+\n*tk75/person for other foreigners.</string>
+
+    <string name="am6">\n\nVisiting Hours:</string>
+    <string name="am7">\n\nweekly holyday : \nThursday
+\nFriday :  \n3pm to 8pm.
+\nSaturday to Wednesday : \n9.00 am to 5pm \n(October to March), \n10.00am to 6pm \n(April to September) \n\n All activities of Museum close on Government Holiday. </string>
+
+
+    <string name="nm1">\n\nNational Museum Dhaka is one of the largest museums in South Asia. It locates at Shahabag. One of the center point of Dhaka Bangladesh. Its establishment is 1913.</string>
+
+    <string name="nm2">\n\nSome Knowledge about National Museum :</string>
+    <string name="nm3">\n\nThe national museum preserves the archaeology, classical, decorative, and contemporary arts.
+        It contains the unique collection of arts from prehistory to present time.
+        The museum includes stone, wooden, and metal sculptures.
+        You will also find in stone inscriptions, copper plates, terracotta, and other archaeological beauties.
+        The largest collection of ancient arms and armor will fascinate you.
+        You will find the reputed works of Shilpacharya Zainul Abedin and other artists.
+        You will be able to know about the language movement and the liberation war of Bangladesh.
+        The museum is playing an important role in the preservation of our culture.
+    </string>
+
+    <string name="nm4">\n\nEntry fee:</string>
+    <string name="nm5">\n\n * tk5/person for 3-12 years
+        \n* tk10/person for above 12 years
+        \n* tk75/person for foreigners.
+        \n* Free entry for children and students on significant National days.</string>
+
+    <string name="nm6">\n\nVisiting Hours:</string>
+    <string name="nm7">\n\nweekly holyday : \nThursday
+\nFriday : \n3pm to 8pm.
+\nSaturday to Wednesday : \n9.30 am to 4.30pm \n(October to March), \n10.30am to 5.30pm \n(April to September)  \n\nAll activities of Museum close on Government Holiday. </string>
+
+
+    <string name="nz1">\n\nMirpur Zoo Dhaka is very near to botanical garden. It is 16 km far from the main city. This is the largest national zoo in Bangladesh.</string>
+
+    <string name="nz2">\n\nSome Knowledge about National Zoo :</string>
+    <string name="nz3">\n\nThe Mirpur Zoo Dhaka is home to more than 2,000 animals from 165 species.
+        It is under Ministry of Fisheries and Livestock, It has started its journey at the High Court premises in Dhaka in 1964, and moved to its present location in 1974 and had been developed and improved over the years.
+About 4 million visitors visit Dhaka zoo every year.
+        The place is the most favorite to the kids.
+        It has a calm atmosphere.
+        It has acquired land 75.53 hectors of land.
+        There are two lakes in the zoo, and they are South Lake 7.29 Hector and North Lake 5.67 hectors.
+        The Museum is an important addition to the Dhaka Zoo.
+        It is a two-storied building located at the southwest corner of the zoo housed the fish aquarium, library, and lecture theatre. Various rare animals and birds are preserved by stuffing and in the jar.
+        It contributes to recreation, learning, and research.
+        The main attraction of the zoo is Royal Bengal Tigers of Sundorban.
+        It has a rich collection of animals, birds, and wildlife of both local and foreign origin.
+        It has 2150 types of vertebrates belonging to 191 species.
+        There are different kinds of animals like elephant, cheetah, rhinoceros, zebra, waterbuck, otter, hyena, deer, giraffes, impala, black bear, tapir, hippo, lion and many different species of monkeys, as well as chimpanzees and baboons can see in the zoo.
+    </string>
+
+    <string name="nz4">\n\nEntry fee:</string>
+
+
+    <string name="nz6">\n\nVisiting Hours:</string>
+    <string name="nz7">\n\nSummer season
+        \n(April to October)
+        \n9.00AM - 6.00 PM
+        \nWinter season
+        \n(November to March)
+        \n8.00AM - 5.00 PM
+</string>
+
+    <string name="lw1">\n\nThe Liberation War Museum is a museum in Segun Bagicha, Dhaka, the capital of Bangladesh,
+        which commemorates the Bangladesh Liberation War that led to the independence of Bangladesh from Pakistan.</string>
+
+    <string name="lw2">\n\nSome Knowledge about Liberation War Museum:</string>
+
+    <string name="lw4">\n\nEntry fee:</string>
+    <string name="lw5">\n\n * tk5/person;
+        \n *free entry for children below 5.</string>
+
+    <string name="lw6">\n\nVisiting Hours:</string>
+    <string name="lw7">\n\nSummer season
+        \n(March-September)
+        \n10.00AM - 6.00 PM
+        \nWinter season
+        \n(October-February)
+        \n10.00AM - 5.00 PM
+        \n\n *Weekly holiday:
+        \n Sunday
+</string>
+
+    <string name="nt1">\n\nBangabandhu Sheikh Mujibur Rahman Novo Theatre is a planetarium on Bijoy Sharani Avenue of Tejgaon area in Dhaka, Bangladesh.</string>
+
+    <string name="nt2">\n\nSome Knowledge about Bangabandhu Sheikh Mujibur Rahman Novo Theatre:</string>
+    <string name="nt3">\n\nThe Bangabandhu Sheikh Mujibur Rahman Novo Theatre opened to public on 25 September 2004.
+         It was previously named Bhashani Novo Theatre.
+        It was made autonomous by Bangabandhu Sheikh Mujibur Rahman Novo Theatre Bill 2010.
+        The space center was commissioned by the Ministry of Science and Communication Technology of the Government of Bangladesh.</string>
+
+    <string name="nt4">\n\nEntry fee:</string>
+    <string name="nt5">\n\n * Entry fee: tk50/person; advance tickets available 1 hour before the morning show and 2 hours before the other shows.</string>
+
+    <string name="nt6">\n\nVisiting Hours:</string>
+    <string name="nt7">\n\nSaturday-Tuesday
+        \n11a.m.,1p.m., 3p.m., 5p.m., 7p.m.
+        \nFriday
+        \n11.30a.m., 3p.m., 5p.m., 7p.m.
+        \n\n *Weekly holiday:
+        \n Wednesday
+</string>
+
+    <string name="bg1">\n\nThe National Botanical Garden of Bangladesh and the Bangladesh National Herbarium make up the largest plant conservation center in Bangladesh, with an area of around 84 hectares (210 acres).
+        It is located at Mirpur in Dhaka, beside the Dhaka Zoo.
+        It was established in 1961.
+        It is one of the greatest botanical gardens of Bangladesh, a knowledge center for nature lovers and botanists and a tourist destination.</string>
+
+    <string name="bg2">\n\nSome Knowledge about National Botanical Garden:</string>
+    <string name="bg3">\n\nThe garden provides learning and recreational facilities adjacent to the Dhaka Zoo.
+        It is divided into 57 sections, and is managed by Forest Department under Ministry of Environment and Forests,Government of Bangladesh.
+        A modern vegetative propagation arrangement and a tissue culture laboratory have been established in the garden for propagation of rare species. Initially, tissue culture of orchids and other rare species have been adopted.
+        Besides, a huge rose garden, criss-crossing lake, watch deck, artificial water fall, bridge over the lake and above all the thousands of migratory birds in winter are the main attractions of the National Botanical Garden.</string>
+
+    <string name="bg4">\n\nEntry fee:</string>
+    <string name="bg5">\n\n * tk5/person for adults
+\n* tk2/person for children
+\n* tk3/person for students group upon prior permission.</string>
+
+    <string name="bg6">\n\nVisiting Hours:</string>
+    <string name="bg7">\n\nMarch-November
+        \n9a.m.-5p.m.
+        \nDecember-February
+        \n9a.m.-4.30p.m.
+        \n\n It is qpen everyday.
+</string>
+
+</resources>
+
+
+
+

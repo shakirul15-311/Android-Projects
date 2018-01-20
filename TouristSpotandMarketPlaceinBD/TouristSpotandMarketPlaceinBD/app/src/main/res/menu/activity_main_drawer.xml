@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_48dp_1x"
+            android:title="Home" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_photo_48pt_2x"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings_36pt_2x"
+            android:title="Setting" />
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/ic_update_48pt_2x"
+            android:title="Update" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_48pt_2x"
+            android:title="About" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit_to_app_48pt_2x"
+            android:title="Exit" />
+    </group>
+
+
+
+</menu>

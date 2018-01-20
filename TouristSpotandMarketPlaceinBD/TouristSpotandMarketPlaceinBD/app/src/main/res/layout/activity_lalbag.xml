@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rakibul.touristspotandmarketplaceinbd.lalbag">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/lalbag"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Lalbagh Fort"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="275dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="242dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Lalbagh Fort is the most popular and renowned fort and a great signature of art by Mughal Empire in Bangladesh. It is also known as Fort Aurangabad. It is located in Lalbagh of old Dhaka, hence named so. It is situated by the bank of the river Buriganga in a rich red soil.\n\nHistory:\n\nLalbagh Fort is an incomplete structure by a Mughal prince and later emperor himself named Muhammad Azam (third son of Aurangazeb). He started the work of the fort in 1678 during his vice-royalty in Bangladesh (Previous Bengal). He stayed in Bengal for 15 months. It remained incomplete when he was called by his father Aurangazeb to the capital Delhi.
+Shaista Khan was the new Subedar (Governor) of Dhaka in that time, and he did not complete the fort. In 1684, the daughter of Shaista Khan named Iran Dukht (Pari Bibi) died there. After her death, he started thinking the fort as ominous, and left the structure incomplete. Among the 3 major parts of Lalbagh Fort, one is the tomb of Pari Bibi.
+After Shaista Khan left Dhaka, it lost its popularity. The main cause was that the capital was shifted from Dhaka to Murshidabad. After the end of royal Mughal period, the fort became abandoned. In 1844, the area achieved its name as Lalbagh replacing Aurangabad, so the fort as Lalbagh Fort.\n\nDifferent parts of Lalbagh Fort:\n\nLalbagh Fort consists of three buildings:\n(1) The Mosque (west side)\n(2) The tomb of Pari-Bibi (middle of east-west of the fort)\n(3) The Diwan-i-aam palace (east side)\n\nEntry fees of Lalbagh Fort:
+\n\n* Local Tourists: 20 TK
+\n* SAARC Country Tourists: 100 TK
+\n* Other Foreigners: 200 TK
+\n\nVisiting hours of Lalbagh Fort:
+\n\n* Summer Season (April – September)
+\nTuesday – Saturday: \n10.00 AM – 01.00 PM\n01.30 PM – 06.00 PM
+\nFriday: \n10.00 AM – 12.30 PM\n02.30 PM – 06.00 PM
+\nSunday: \nWeekly Holiday
+\nMonday: \n02.30 PM – 06.00 PM
+\n\n* Winter Season (October – March)
+\nTuesday – Saturday: \n09.00 AM – 01.00 PM\n01.30 PM – 05.00 PM
+\nFriday: \n09.00 AM – 12.30 PM\n02.00 PM – 05.00 PM
+\nSunday: \nWeekly Holiday
+\nMonday: \n01.30 PM – 05.00 PM
+\n\n* Eid Holidays
+\nLalbagh Fort will remain closed for visitors during Eid day and the previous day of Eid. It will remain open as usual from the next day of Eid day.
+\n\n* Govt. Holidays
+\nLalbagh Fort will remain closed during any govt. holiday.
+\n\n* Ramadan Timing
+\nLalbagh Fort will be closed at 04.00 PM during the holy month of Ramadan.
+"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

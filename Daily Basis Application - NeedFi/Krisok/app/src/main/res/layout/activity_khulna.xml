@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@drawable/blue"
+    android:layout_height="fill_parent"
+    tools:context="com.example.lenovo.krisok.Hospital.Khulna">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="519dp">
+
+    <TextView
+        android:id="@+id/jessorejella"
+        android:layout_width="385dp"
+        android:textColor="#000"
+        android:layout_height="fill_parent"
+        android:text= "                                          যশোর জেলা।\n \n
+Abhoynagar Upazila Health Complex\n	01730324581\n\n
+Bagherpara Upazila Health Complex\n	01730324582\n\n
+Chowgacha Upazila Health Complex\n	01730324583\n\n
+Jhikargacha Upazila Health Complex\n	01730324584\n\n
+Keshabpur Upazila Health Complex\n	01730324585\n\n
+Monirampur Upazila Health Complex\n	01730324586\n\n
+Sharsha Upazila Health Complex\n	01730324587\n\n
+District Hospital\n	01730324795\n\n
+\n
+                                 ঝিনাইদাহ জেলা।\n\n
+Harinakundu Upazila Health Complex\n	01730324588\n\n
+Kaliganj Upazila Health Complex\n	01730324589\n\n
+Kotchandpur Upazila Health Complex\n	01730324590\n\n
+Mohespur Upazila Health Complex\n	01730324591\n\n
+Sailkupa Upazila Health Complex\n	01730324592\n\n
+District Hospital\n	01730324796\n\n
+
+
+
+
+
+
+"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+</RelativeLayout>
+</ScrollView>

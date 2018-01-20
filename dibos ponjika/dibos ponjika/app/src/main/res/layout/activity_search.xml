@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.wix.boss.daily.search">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#f4b310"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="50dp">
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/date_E_text"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:hint="Ex:1-12(date-month)" />
+
+            <Button
+                android:text=""
+                android:layout_width="45dp"
+                android:background="@drawable/but_search"
+                android:layout_height="match_parent"
+                android:id="@+id/search_button2"
+                android:layout_weight="0.05" />
+        </LinearLayout>
+
+        <TextView
+            android:text=""
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="2017"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/year_tv2" />
+
+        <TextView
+            android:text="July"
+            android:textSize="17dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_width="130dp"
+            android:background="#0f5096"
+            android:layout_gravity="center"
+            android:layout_height="25dp"
+            android:id="@+id/month_tv2" />
+
+        <TextView
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="130dp"
+            android:background="@drawable/cal_back"
+            android:layout_height="100dp"
+            android:id="@+id/date_tv2" />
+
+        <TextView
+            android:text="Sun"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#101010"
+            android:layout_marginTop="-30dp"
+            android:id="@+id/wekdays_tv2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_height="match_parent"
+        android:layout_weight="15">
+
+        <com.google.android.gms.ads.AdView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/adView2"
+            android:gravity="bottom"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-9969906865130859/8610938928"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

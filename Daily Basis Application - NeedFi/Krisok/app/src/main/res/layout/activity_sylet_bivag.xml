@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+  android:background="@drawable/blue"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.krisok.Hospital.SyletBivag">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="384dp"
+        android:layout_height="513dp"
+        android:textColor="#000"
+        android:text="                                          সিলেট বিভাগ\n\nBalaganj Upazila Health Complex\n	01730324749\n\n
+Beanibazer Upazila Health Complex\n	01730324750\n\n
+Biswanath Upazila Health Complex\n	01730324751\n\n
+Companiganj Upazila Health Complex\n	01730324752\n\n
+Fenchuganj Upazila Health Complex\n	01730324753\n\n
+Gowainghat Upazila Health Complex\n	01730324755\n\n
+Jointapur Upazila Health Complex\n	01730324756\n\n
+
+"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-5dp" />
+</RelativeLayout>

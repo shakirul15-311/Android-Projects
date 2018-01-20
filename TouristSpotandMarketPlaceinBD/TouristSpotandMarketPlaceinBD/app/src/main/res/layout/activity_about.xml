@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rakibul.touristspotandmarketplaceinbd.about">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rakibul Islam
+ID :151-15-5131
+Gmail:rakibul15-5131@diu.edu.bd
+
+Sumaiya Sultana
+ID:151-15-4949
+Gmail :Sumaiyasultana15-4949@diu.edu.bd
+
+Shaikat Saha
+ID :151-15-4698
+Gmail :@Shaikatsaha15-4698@diu.edu.bd"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_marginTop="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

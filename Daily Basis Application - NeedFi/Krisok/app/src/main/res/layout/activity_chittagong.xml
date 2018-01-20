@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.krisok.Hospital.Chittagong">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textColor="#000"
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="                                             চট্টগ্রাম বিভাগ\nn Anawara Upazila Health Complex\n	01730324443\n\n
+
+Baskhali Upazila Health Complex\n	01730324444\n\n
+Boalkhali Upazila Health Complex\n	01730324445\n\n
+Chandanaish Upazila Health Complex\n	01730324446\n\n
+Fatikchari Upazila Health Complex\n	01730324447\n\n
+Hathazari Upazila Health Complex\n	01730324448\n\n
+Lohagara Upazila Health Complex\n	01730324449\n\n
+Mirsarai Upazila Health Complex\n	01730324450\n\n
+Potiya Upazila Health Complex\n	01730324451\n\n
+Rangunia Upazila Health Complex\n	01730324452\n\n
+Rowzan Upazila Health Complex\n	01730324453\n\n
+Sandwip Upazila Health Complex\n	01730324454\n\n
+Satkania Upazila Health Complex\n	01730324455\n\n
+Sitakandu Upazila Health Complex\n	01730324456\n\n
+General Hospital\n	01730324768\n\n
+Sultanpur 31 Bed Hospital\n	01730324883\n\n
+"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="1dp" />
+</RelativeLayout>
+</ScrollView>

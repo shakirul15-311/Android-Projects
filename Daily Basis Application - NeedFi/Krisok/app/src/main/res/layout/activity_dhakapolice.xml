@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/blue"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.krisok.Dhakapolice">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:text="                                             ঢাকা বিভাগ\n
+                                           ডি এম পি, ঢাকা\n
+১) ওসি রমনা- ০১৭১৩৩৭৩১২৫\n
+২) ওসি ধানমন্ডি- ০১৭১৩৩৭৩১২৬\n
+৩) ওসি শাহাবাগ- ০১৭১৩৩৭৩১২৭\n
+৪) ওসি নিউ মার্কেট- ০১৭১৩৩৭৩১২৮\n
+৫) ওসি লালবাগ- ০১৭১৩৩৭৩১৩৪\n
+৬) ওসি কোতয়ালী- ০১৭১৩৩৭৩১৩৫\n
+৭) ওসি হাজারীবাগ- ০১৭১৩৩৭৩১৩৬\n
+৮) ওসি কামরাঙ্গীরচর- ০১৭১৩৩৭৩১৩৭\n
+৯) ওসি সুত্রাপুর- ০১৭১৩৩৭৩১৪৩\n
+১০) ওসি ডেমরা- ০১৭১৩৩৭৩১৪৪\n
+১১) ওসি শ্যামপুর- ০১৭১৩৩৭৩১৪৫\n
+১২) ওসি যাত্রাবাড়ী- ০১৭১৩৩৭৩১৪৬\n
+১৩) ওসি মতিঝিল- ০১৭১৩৩৭৩১৫২\n
+১৪) ওসি সবুজবাগ- ০১৭১৩৩৭৩১৫৩\n
+১৫) ওসি খিলগাও- ০১৭১৩৩৭৩১৫৪\n
+১৬) ওসি পল্টন- ০১৭১৩৩৭৩১৫৫\n
+১৭) ওসি উত্তরা- ০১৭১৩৩৭৩১৬১\n
+১৮) ওসি এয়ারপোর্ট- ০১৭১৩৩৭৩১৬২\n
+১৯) ওসি তুরাগ- ০১৭১৩৩৭৩১৬৩\n
+২০) ওসি উত্তরখান- ০১৭১৩৩৭৩১৬৪\n
+২১) ওসি দক্ষিনখান- ০১৭১৩৩৭৩১৬৫\n
+২২) ওসি গুলশান- ০১৭১৩৩৭৩১৭১\n
+২৩) ওসি ক্যান্টনমেন্ট- ০১৭১৩৩৭৩১৭২\n
+২৪) ওসি বাড্ডা- ০১৭১৩৩৭৩১৭৩\n
+২৫) ওসি খিলক্ষেত- ০১৭১৩৩৭৩১৭৪\n
+২৬) ওসি তেজগাও- ০১৭১৩৩৭৩১৮০\n
+২৭) ওসি তেজগাও শি/এ- ০১৭১৩৩৭৩১৮১\n
+২৮) ওসি মোহাম্মদপুর- ০১৭১৩৩৭৩১৮২\n
+২৯) ওসি আদাবর- ০১৭১৩৩৭৩১৮৩\n
+৩০) ওসি মিরপুর- ০১৭১৩৩৭৩১৮৯\n
+৩১) ওসি পল্লবী- ০১৭১৩৩৭৩১৯০\n
+৩২) ওসি কাফরুল- ০১৭১৩৩৭৩১৯১\n
+৩৩) ওসি শাহ আলী- ০১৭১৩৩৭৩১৯২\n
+"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+</ScrollView>
