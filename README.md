@@ -13,10 +13,10 @@ Some Android Projects For University Course(Wireless Programming) By Android Stu
 |WallpaperLove|
 |Dibos ponjika/ Calender|
 |Media plyer2|
-|______________|
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
+| First Header  |
+| ------------- | 
+| Content Cell  | 
+| Content Cell  | 
